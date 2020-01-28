@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<h2 th:text= "${msg}"></h2>
+
+    <form action="/adicionacookie" method="POST">
+        Nome:<br>
+        <input type="text" name="nome" id="name" >
+
+
+        <br><br>
+        <input type="submit" value="Enter">
+    </form>
+
+</body>
+
+</html>
